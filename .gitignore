@@ -1,0 +1,58 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Configuración de entorno
+.env
+.env.*
+
+# Archivos de compilación y caché
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+
+# Logs
+*.log
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos de migraciones creados automáticamente
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Archivos de Docker
+*.pid
+docker-compose.override.yml
+
+# Archivos de VS Code / editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Cobertura y pruebas
+htmlcov/
+coverage.xml
+.cache/
+.pytest_cache/
+
+# Archivos de build/distribución
+build/
+dist/
+*.tar.gz
+*.whl
+
+# Node (si usas alguna integración JS/TS)
+node_modules/
+
+# Mongo dump
+dump/

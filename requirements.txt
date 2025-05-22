@@ -1,0 +1,9 @@
+django
+djangorestframework
+python-dotenv
+dnspython
+python-whois
+python-nmap
+requests
+openai
+
