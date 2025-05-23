@@ -5,8 +5,8 @@ services:
     container_name: deepseek-container
     env_file:
       - .env
-    volumes:
-      - .:/app
+    # volumes:
+    #   - .:/app
     ports:
       - "8000:8000"
     restart: unless-stopped
